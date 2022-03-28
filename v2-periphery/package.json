@@ -1,0 +1,42 @@
+{
+  "name": "uniswap_v2_tutorial",
+  "version": "1.0.0",
+  "description": "uniswap v2 tutorial",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uniswap",
+    "v2"
+  ],
+  "author": "kentaro",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.1",
+    "truffle-assertions": "^0.9.2",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^2.4.1",
+    "ethereumjs-util": "^6.2.0",
+    "mocha": "^6.2.2",
+    "ncp": "^2.0.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "solc": "0.6.6"
+  }
+}
